@@ -1,0 +1,89 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Enemy
+  - Items
+  - Escape
+  - EquipPosition
+  - startZone
+  - InventoryContent
+  - InventoryCanvas
+  - Inventory
+  - Managers
+  - Canvas
+  - MenuUI
+  - InventoryUI
+  - HideInventory
+  - ShowInventory
+  - HealthUI
+  - StartSpawn
+  - ToggleInventory
+  - TPBLOCK
+  - Walls
+  - HealthUi
+  - GlowKey
+  - DBConnection
+  - USBKey
+  - InGameMenu
+  - Zone1
+  - LuikDeur
+  - SP
+  - Barrel
+  - SPBarrels
+  - Valve
+  - Jumpscare
+  - JumpscareUI
+  - LogInUI
+  - Image
+  - ImageAnklegrabber
+  - ImageBookhead
+  - ImageZombie
+  - TipsUI
+  - GuessingGameUI
+  - Key4
+  - PaintingBoat
+  - PaintingBridge
+  - PaintingEarth
+  - PaintingWoman
+  - PaintingWolf
+  - PaintingLandscape
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - Ground
+  - Water
+  - UI
+  - Camera
+  - Monsters
+  - Items
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0

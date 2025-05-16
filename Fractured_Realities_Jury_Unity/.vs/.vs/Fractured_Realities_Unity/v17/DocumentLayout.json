@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Fractured_Realities\\Fractured_Realities_Unity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{204D0E27-21B1-C48D-12BC-210B7772DEF3}|Assembly-CSharp.csproj|c:\\fractured_realities\\fractured_realities_unity\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204D0E27-21B1-C48D-12BC-210B7772DEF3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204D0E27-21B1-C48D-12BC-210B7772DEF3}|Assembly-CSharp.csproj|c:\\fractured_realities\\fractured_realities_unity\\assets\\scripts\\monsters\\enemybookhead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204D0E27-21B1-C48D-12BC-210B7772DEF3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsters\\enemybookhead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204D0E27-21B1-C48D-12BC-210B7772DEF3}|Assembly-CSharp.csproj|c:\\fractured_realities\\fractured_realities_unity\\assets\\scripts\\inventory\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204D0E27-21B1-C48D-12BC-210B7772DEF3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\itempickup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EnemyBookHead.cs",
+              "DocumentMoniker": "C:\\Fractured_Realities\\Fractured_Realities_Unity\\Assets\\Scripts\\Monsters\\EnemyBookHead.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Monsters\\EnemyBookHead.cs",
+              "ToolTip": "C:\\Fractured_Realities\\Fractured_Realities_Unity\\Assets\\Scripts\\Monsters\\EnemyBookHead.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Monsters\\EnemyBookHead.cs",
+              "ViewState": "AgIAAC8AAAAAAAAAAAAEwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:45:00.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ItemPickup.cs",
+              "DocumentMoniker": "C:\\Fractured_Realities\\Fractured_Realities_Unity\\Assets\\Scripts\\Inventory\\ItemPickup.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\ItemPickup.cs",
+              "ToolTip": "C:\\Fractured_Realities\\Fractured_Realities_Unity\\Assets\\Scripts\\Inventory\\ItemPickup.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\ItemPickup.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAQwB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:38:43.045Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Fractured_Realities\\Fractured_Realities_Unity\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ToolTip": "C:\\Fractured_Realities\\Fractured_Realities_Unity\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAwwFIAAAB4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-04T16:38:10.984Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

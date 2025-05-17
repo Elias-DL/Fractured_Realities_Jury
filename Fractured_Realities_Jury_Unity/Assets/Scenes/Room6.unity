@@ -307,7 +307,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 184180, guid: 074728566132335428608c1b7e7f1f14, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 184180, guid: 074728566132335428608c1b7e7f1f14, type: 3}
       propertyPath: m_TagString
@@ -1651,7 +1651,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 184180, guid: 074728566132335428608c1b7e7f1f14, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 184180, guid: 074728566132335428608c1b7e7f1f14, type: 3}
       propertyPath: m_TagString
@@ -1707,6 +1707,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 482970, guid: 074728566132335428608c1b7e7f1f14, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2310044, guid: 074728566132335428608c1b7e7f1f14, type: 3}
+      propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2310044, guid: 074728566132335428608c1b7e7f1f14, type: 3}
@@ -3600,7 +3604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 184180, guid: 074728566132335428608c1b7e7f1f14, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 184180, guid: 074728566132335428608c1b7e7f1f14, type: 3}
       propertyPath: m_TagString

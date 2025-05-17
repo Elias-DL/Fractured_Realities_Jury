@@ -32,9 +32,10 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\FPSController.cs",
               "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Player\\FPSController.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\FPSController.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAQwDUAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAgwDUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T15:20:50.018Z"
+              "WhenOpened": "2025-05-16T15:20:50.018Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -44,7 +45,7 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAJgAAAAAAAAAAAAIwLcAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAJsAAAAAAAAAAAAIwLMAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-16T15:12:22.936Z",
               "EditorCaption": ""

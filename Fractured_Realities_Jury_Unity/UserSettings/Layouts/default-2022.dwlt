@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Game
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -635,9 +635,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 93.17609, y: -103.93118, z: 95.20046}
+    m_Target: {x: 744.2758, y: 824.42596, z: 122.22339}
     speed: 2
-    m_Value: {x: 93.17609, y: -103.93118, z: 95.20046}
+    m_Value: {x: 744.2758, y: 824.42596, z: 122.22339}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -683,13 +683,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: -0.100644976, y: 0.19886884, z: -0.020537991, w: -0.97466713}
+    m_Target: {x: -0.17985238, y: 0.12793714, z: -0.023607563, w: -0.97509784}
     speed: 2
-    m_Value: {x: -0.10073255, y: 0.19447345, z: -0.020084118, w: -0.9755151}
+    m_Value: {x: -0.1798445, y: 0.12793152, z: -0.023606528, w: -0.97505504}
   m_Size:
-    m_Target: 223.28107
+    m_Target: 420.21594
     speed: 2
-    m_Value: 233.80217
+    m_Value: 420.21594
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -751,9 +751,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 84700000
+      m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 3a0effff5c16ffffc217ffffe21bffff9423ffffe423ffffc827ffff3629ffffdc30ffff0c32fffff435ffff0e3cffffec4bffff0a4cffff7a4dffffa84dffffb45effff1466ffff6466ffff486affffb66bffff5c73ffff8c74ffff7478ffff8e7effff6c8effff8a8efffffa8fffff2890ffffa893ffff7e94ffff1e96ffff2aa8ffffbea9ffff86abffff66bbffffb0bbffff96bdffffbac0ffff98c1fffffcc8ffff4cc9ffff50cdffffc2ceffff6cd6ffffa0d7ffff8cdbffffaae1ffff6cf1ffff90f1ffff04f3ffff36f3ffffacf9ffffdefafffff8bf000094c00000ca010100fc01010020ab010090ab0100
+      m_ExpandedIDs: e455fcff3256fcff325afcffa05bfcff4663fcff7664fcff5e68fcff786efcff567efcff747efcffe47ffcff1280fcff0c86fcff6a86fcff248bfcffa492fcfff292fcfff696fcff6898fcff12a0fcff46a1fcff32a5fcff50abfcff32bbfcff54bbfcffc8bcfcfffabcfcffeafcfcff600dfdffb413fdff0414fdff2a17fdffc01dfdffec1efdff3422fdffd623fdffb624fdffc626fdffd427fdff10c701004ccc0100eacf0100eecf0100ea5e0200ee5e02000e62020042620200e8620200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -844,7 +844,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 1
+    m_EnableMouseInput: 0
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
@@ -920,7 +920,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Assets/Scripts/UI
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -928,16 +928,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Assets/Scripts/UI
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Fractured_Realities_Jury\Fractured_Realities_Jury_Unity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 166}
-    m_SelectedIDs: 6a700000
-    m_LastClickedID: 28778
-    m_ExpandedIDs: 0000000012700000687000009aec000000ca9a3b
+    scrollPos: {x: 0, y: 246}
+    m_SelectedIDs: 1c080000
+    m_LastClickedID: 2076
+    m_ExpandedIDs: 0000000028060000a006000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -965,7 +965,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000012700000
+    m_ExpandedIDs: 
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1042,9 +1042,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 658
-    width: 1581
-    height: 333
+    y: 801
+    width: 1580
+    height: 190
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

@@ -278,6 +278,10 @@ PrefabInstance:
       propertyPath: Item
       value: 
       objectReference: {fileID: 11400000, guid: 64fcf39616156af4bacb62811cc858d7, type: 2}
+    - target: {fileID: 3414522351773172578, guid: c578c510fdd1dd54182d56b4f730e5ae, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4307035515328322119, guid: c578c510fdd1dd54182d56b4f730e5ae, type: 3}
       propertyPath: item
       value: 
@@ -2875,7 +2879,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 961341085931880864, guid: b5a4dbef7e24e92498c5e27f5c3e0257, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1302466909673799596, guid: b5a4dbef7e24e92498c5e27f5c3e0257, type: 3}
       propertyPath: item
@@ -2899,7 +2903,7 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 84327d21e53e4b94a8006414f6ddba90, type: 2}
     - target: {fileID: 7313353661083284545, guid: b5a4dbef7e24e92498c5e27f5c3e0257, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8895899212008664371, guid: b5a4dbef7e24e92498c5e27f5c3e0257, type: 3}
       propertyPath: m_LocalScale.x

@@ -58,8 +58,12 @@ public class PlayerMovement : MonoBehaviour
             naamGezien = rayHitItems.transform.name;
             if (naamGezien.Contains("Key") || naamGezien == "Flashlight" || naamGezien.Contains("Candle")) 
             {
-                itemSeen = rayHitItems.transform.gameObject; 
-                txtTips.text = "Press F to pick up " + naamGezien;
+                itemSeen = rayHitItems.transform.gameObject;
+                if (itemSeen.activeSelf == true && itemSeen.GetComponent<MeshRenderer>().enabled == true)
+                {
+                    txtTips.text = "Press F to pick up " + itemSeen.tag;
+
+                }
                 Debug.Log(rayHitItems.transform.name);
 
             }

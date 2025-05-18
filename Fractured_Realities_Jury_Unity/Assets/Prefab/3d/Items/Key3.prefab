@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: -7463660504821907082}
   - component: {fileID: 2705242206893958043}
   - component: {fileID: -1244430056365198428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Key3
-  m_TagString: Untagged
+  m_TagString: Key3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: 17255d82d7a8f1146a1bcf7ae17f3a88, type: 2}
+  txtTips: {fileID: 0}
 --- !u!54 &-7463660504821907082
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -162,5 +163,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 17255d82d7a8f1146a1bcf7ae17f3a88, type: 2}
-  itemPrefab: {fileID: 0}
+  itemPrefab: {fileID: 5136960719604749398}
   player: {fileID: 0}

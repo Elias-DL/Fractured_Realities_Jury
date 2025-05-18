@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 6833115818099913153}
   - component: {fileID: 7427633782630634878}
   - component: {fileID: 8466168415387481956}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Key2
-  m_TagString: Untagged
+  m_TagString: Key2
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: 8b8eb8b8ba109354299507c9a527c3e2, type: 2}
+  txtTips: {fileID: 0}
 --- !u!54 &6833115818099913153
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -110,7 +111,7 @@ Rigidbody:
   m_GameObject: {fileID: 4040850637776738406}
   serializedVersion: 4
   m_Mass: 1
-  m_Drag: 0
+  m_Drag: 1
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
   m_InertiaTensor: {x: 1, y: 1, z: 1}
@@ -123,7 +124,7 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
   m_Constraints: 0
@@ -162,5 +163,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 8b8eb8b8ba109354299507c9a527c3e2, type: 2}
-  itemPrefab: {fileID: 0}
+  itemPrefab: {fileID: 4040850637776738406}
   player: {fileID: 0}

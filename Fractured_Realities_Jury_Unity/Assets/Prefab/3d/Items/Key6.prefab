@@ -15,13 +15,13 @@ GameObject:
   - component: {fileID: -5330575549578700648}
   - component: {fileID: -6221784240264636406}
   - component: {fileID: 1637694674689225117}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Key6
-  m_TagString: Untagged
+  m_TagString: Key6
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &7448751641557657034
 Transform:
   m_ObjectHideFlags: 0
@@ -101,6 +101,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: eee8e543ad1918b40b8a8541edc629cc, type: 2}
+  txtTips: {fileID: 0}
 --- !u!54 &-5330575549578700648
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -161,6 +162,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c73e05f78d6b0a347bc14186037c730d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 0}
-  itemPrefab: {fileID: 0}
+  item: {fileID: 11400000, guid: eee8e543ad1918b40b8a8541edc629cc, type: 2}
+  itemPrefab: {fileID: 2234315884845596731}
   player: {fileID: 0}

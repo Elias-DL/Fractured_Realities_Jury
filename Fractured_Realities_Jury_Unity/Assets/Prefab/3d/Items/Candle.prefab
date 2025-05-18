@@ -109,9 +109,9 @@ GameObject:
   - component: {fileID: 6744506949661173952}
   - component: {fileID: 65537586370575762}
   - component: {fileID: 8964976188812704317}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Candle
-  m_TagString: Untagged
+  m_TagString: Candle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -198,6 +198,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: 013e75c4659a83f4098350d929f1db4a, type: 2}
+  txtTips: {fileID: 0}
 --- !u!114 &6744506949661173952
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -211,7 +212,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 013e75c4659a83f4098350d929f1db4a, type: 2}
-  itemPrefab: {fileID: 0}
+  itemPrefab: {fileID: 3880618474077396191}
   player: {fileID: 0}
 --- !u!54 &65537586370575762
 Rigidbody:

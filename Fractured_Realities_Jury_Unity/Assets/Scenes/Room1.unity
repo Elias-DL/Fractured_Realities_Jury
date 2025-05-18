@@ -4025,14 +4025,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Key2
       objectReference: {fileID: 0}
-    - target: {fileID: 6833115818099913153, guid: f8f8f1df3e97bc5469c821f3a5b33e27, type: 3}
-      propertyPath: m_Drag
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6833115818099913153, guid: f8f8f1df3e97bc5469c821f3a5b33e27, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 8592454992561298360, guid: f8f8f1df3e97bc5469c821f3a5b33e27, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -17623,10 +17615,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Candle
       objectReference: {fileID: 0}
-    - target: {fileID: 3880618474077396191, guid: 04b545581c537d94f9502aac10fac120, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
     - target: {fileID: 3900148389314124060, guid: 04b545581c537d94f9502aac10fac120, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.33
@@ -17667,10 +17655,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 6744506949661173952, guid: 04b545581c537d94f9502aac10fac120, type: 3}
-      propertyPath: itemPrefab
-      value: 
-      objectReference: {fileID: 3880618474077396191, guid: 04b545581c537d94f9502aac10fac120, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

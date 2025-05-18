@@ -51,7 +51,7 @@ public class FPSController : MonoBehaviour
         if (cursorLock == true)
         {
             Cursor.lockState = CursorLockMode.Locked; // cursor in het midden
-            Cursor.visible = false;
+            Cursor.visible = true;
 
             #region Handles Movment
             Vector3 forward = transform.TransformDirection(Vector3.forward);

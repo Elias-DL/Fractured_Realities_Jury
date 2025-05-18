@@ -7,7 +7,8 @@ public class InventoryItemController : MonoBehaviour
     public GameObject itemPrefab;
     public Transform player;
     private GameObject equippedItem;
-
+    private GameObject itemObject;
+    private bool pickedUp = false;
     public static string EquippedItemName { get; private set; }
 
     private void Start()
@@ -15,6 +16,32 @@ public class InventoryItemController : MonoBehaviour
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
+    public void Update()
+    {
+        if (player != null && player.GetComponent<PlayerMovement>().naamGezien != null)
+        {
+            if ((Input.GetKeyDown("f")) && pickedUp == false)
+            {
+                 itemObject = player.GetComponent<PlayerMovement>().itemSeen;
+
+                if (itemObject != null && itemObject.GetComponent<ItemPickup>() != null)
+                {
+                    itemObject.GetComponent<ItemPickup>().Pickup();
+                    
+                }
+                pickedUp = true;
+                player.GetComponent<PlayerMovement>().itemSeen = null;
+            }
+            else
+            {
+                Debug.Log(item.name);
+            }
+
+        }
+
+
+    }
+  
     public void OnItemClicked()
     {
         EquipItem();
@@ -71,7 +98,7 @@ public class InventoryItemController : MonoBehaviour
         }
         else
         {
-            Debug.LogWarning("Item or prefab mist!");
+            Debug.LogWarning("Item of prefab mist!");
             EquippedItemManager.Instance.ClearEquippedItem();
             EquippedItemName = "";
         }

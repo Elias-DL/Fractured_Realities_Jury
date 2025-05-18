@@ -3718,6 +3718,10 @@ PrefabInstance:
       value: FinalKey
       objectReference: {fileID: 0}
     - target: {fileID: 6039756388605124647, guid: b462b83c089395041ab0e23df3e3df11, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6039756388605124647, guid: b462b83c089395041ab0e23df3e3df11, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}

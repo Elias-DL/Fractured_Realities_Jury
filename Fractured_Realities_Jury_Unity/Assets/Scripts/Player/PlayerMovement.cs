@@ -24,13 +24,15 @@ public class PlayerMovement : MonoBehaviour
     Ray ray;
     float sphereRadius = 1.0f; // Same radius as SphereCast
     float rayDistance = 100f;   // Max distance for the SphereCast
-    RaycastHit rayHit;
+    RaycastHit rayHitEnemies;
+    RaycastHit rayHitItems;
     public Camera cam;
     private string action;
     public TextMeshProUGUI txtTips;
     // Add a LayerMask variable to select specific layers
     public LayerMask layerMaskEnemies;
-
+    public LayerMask layerMaskItems;
+    public GameObject itemSeen; // Het item waar de speler naar kijkt
     private void Start()
     {
 
@@ -41,13 +43,25 @@ public class PlayerMovement : MonoBehaviour
     IEnumerator Scanning()
     {
         // Perform SphereCast using a LayerMask to only detect specific layers
-        if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHit, rayDistance, layerMaskEnemies))
+        if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitEnemies, rayDistance, layerMaskEnemies))
         {
-            naamGezien = rayHit.transform.name;
+            naamGezien = rayHitEnemies.transform.name;
             if (naamGezien == "AnkleGrabber" || naamGezien == "Bookhead" || naamGezien == "Zombie")
             {
-                Debug.Log(rayHit.transform.name);
+                Debug.Log(rayHitEnemies.transform.name);
                 gezien = true;
+            }
+        }
+
+        if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitItems, rayDistance, layerMaskItems))
+        {
+            naamGezien = rayHitItems.transform.name;
+            if (naamGezien.Contains("Key") || naamGezien == "Flashlight" || naamGezien.Contains("Candle")) 
+            {
+                itemSeen = rayHitItems.transform.gameObject; 
+                txtTips.text = "Press F to pick up " + naamGezien;
+                Debug.Log(rayHitItems.transform.name);
+
             }
         }
         else
@@ -171,14 +185,9 @@ public class PlayerMovement : MonoBehaviour
             animator.SetBool("Jump", true);
             action = "Jump";
         }
-        if (Input.GetKey("o"))
-        {
-            Cursor.visible = true;
-        }
-        if (Input.GetKey("f"))
-        {
-            Cursor.visible = false;
-        }
+        
+
+        
         SoundEffects();
 
     }

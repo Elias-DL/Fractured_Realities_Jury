@@ -39,6 +39,6 @@ public class GameManager : MonoBehaviour
     private void ShowKey()
     {   
         Debug.Log("All paintings are placed!");
-        Key6.SetActive(true); // De key wordt zichtbaar als alle paintings zijn opgehangen
+        Key6.SetActive(true);
     }
 }

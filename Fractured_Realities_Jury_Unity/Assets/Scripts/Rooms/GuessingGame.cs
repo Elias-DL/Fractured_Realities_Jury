@@ -21,7 +21,6 @@ public class GuessingGame : MonoBehaviour
 
         objRandomNr = Random.Range(1, 101);
         feedbackText.text = "Guess a number between 1 and 100!";
-        sleutel.GetComponent<MeshRenderer>().enabled = false;
     }
 
     public void CheckGuess()
@@ -40,7 +39,7 @@ public class GuessingGame : MonoBehaviour
             else
             {
                 feedbackText.text = "Correct! You guessed it!";
-                sleutel.GetComponent<MeshRenderer>().enabled = true; // als de gok juist is wordt de sleutel zichtbaar
+                sleutel.SetActive(true); // als de gok juist is wordt de sleutel zichtbaar
                 guessingGameCanvas.SetActive(false);
 
             }

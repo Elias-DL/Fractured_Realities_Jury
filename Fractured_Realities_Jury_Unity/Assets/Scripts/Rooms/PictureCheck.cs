@@ -19,12 +19,11 @@ public class PictureCheck : MonoBehaviour
     void Update()
     {
 
-        if (imgAnkle.activeSelf == true && imgBookHead.activeSelf == true && imgZombie.activeSelf == true) // De key zichtbaar maken als je alle fotos hebt opgehanden
+        if (imgAnkle.GetComponent<MeshRenderer>().enabled == true && imgBookHead.GetComponent<MeshRenderer>().enabled == true && imgZombie.GetComponent<MeshRenderer>().enabled) // De key zichtbaar maken als je alle fotos hebt opgehanden
         {
             if (Key != null)
             {
                 Key.SetActive(true);
-
             }
         }
     }

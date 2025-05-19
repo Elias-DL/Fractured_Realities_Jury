@@ -14,7 +14,7 @@ public class PaintingMonsters : MonoBehaviour
         if (PlayerPrefs.HasKey(imgMonster + "Gevonden")) // bijhouden of het schilderij al is is opgehangen
                                                          // zodat als je de kamer kan verlaten en niet opnieuw moet beginnen
         {
-            Image.SetActive(true);
+            Image.GetComponent<MeshRenderer>().enabled = true; 
 
         }
     }
@@ -29,7 +29,7 @@ public class PaintingMonsters : MonoBehaviour
     {
         if (EquippedItemManager.Instance.EquippedItemName == imgMonster ) // als het item van het juiste monster equipped is komt de image tevoorschijn
         {
-            Image.SetActive(true);
+            Image.GetComponent<MeshRenderer>().enabled = true;
             GameObjectMonster = GameObject.FindWithTag("Image"+imgMonster);
             Destroy(GameObjectMonster);
             EquippedItemManager.Instance.ClearEquippedItem();

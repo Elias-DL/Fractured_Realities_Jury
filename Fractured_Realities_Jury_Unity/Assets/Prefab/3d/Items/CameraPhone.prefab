@@ -16,9 +16,9 @@ GameObject:
   - component: {fileID: 4923413479965338029}
   - component: {fileID: 918721366213212190}
   - component: {fileID: 2991773423179521216}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: CameraPhone
-  m_TagString: Untagged
+  m_TagString: Phone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -151,6 +151,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: b4caf6d66d52ed84ba9bf23c5fdca6c9, type: 2}
+  txtTips: {fileID: 0}
 --- !u!114 &918721366213212190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -164,7 +165,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: b4caf6d66d52ed84ba9bf23c5fdca6c9, type: 2}
-  itemPrefab: {fileID: 0}
+  itemPrefab: {fileID: 4579483659391053874}
   player: {fileID: 0}
 --- !u!114 &2991773423179521216
 MonoBehaviour:

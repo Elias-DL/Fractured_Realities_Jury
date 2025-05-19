@@ -20,7 +20,9 @@ public class PlayerMovement : MonoBehaviour
     public CharacterController characterController;
     Animator animator; // Reference to Animator
     public bool gezien;
-    public string naamGezien;
+    public string monsterGezien;
+    public string itemGezien;
+
     Ray ray;
     float sphereRadius = 1.0f; // Same radius as SphereCast
     float rayDistance = 100f;   // Max distance for the SphereCast
@@ -45,8 +47,8 @@ public class PlayerMovement : MonoBehaviour
         // Perform SphereCast using a LayerMask to only detect specific layers
         if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitEnemies, rayDistance, layerMaskEnemies))
         {
-            naamGezien = rayHitEnemies.transform.name;
-            if (naamGezien == "AnkleGrabber" || naamGezien == "Bookhead" || naamGezien == "Zombie")
+            monsterGezien = rayHitEnemies.transform.name;
+            if (monsterGezien == "AnkleGrabber" || monsterGezien == "Bookhead" || monsterGezien == "Zombie")
             {
                 Debug.Log(rayHitEnemies.transform.name);
                 gezien = true;
@@ -55,8 +57,8 @@ public class PlayerMovement : MonoBehaviour
 
         if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitItems, rayDistance, layerMaskItems))
         {
-            naamGezien = rayHitItems.transform.name;
-            if (naamGezien.Contains("Key") || naamGezien == "Flashlight" || naamGezien.Contains("Candle")) 
+            itemGezien = rayHitItems.transform.name;
+            if (itemGezien.Contains("Key") || itemGezien == "Flashlight" || itemGezien.Contains("Candle") ||itemGezien == "CameraPhone") 
             {
                 itemSeen = rayHitItems.transform.gameObject;
                 if (itemSeen.activeSelf == true && itemSeen.GetComponent<MeshRenderer>().enabled == true)
@@ -64,14 +66,15 @@ public class PlayerMovement : MonoBehaviour
                     txtTips.text = "Press F to pick up " + itemSeen.tag;
 
                 }
-                Debug.Log(rayHitItems.transform.name);
+                //Debug.Log(rayHitItems.transform.name);
 
             }
         }
         else
         {
             gezien = false;
-            naamGezien = null;
+            monsterGezien = null;
+            itemGezien = null;
         }
 
         yield return new WaitForSeconds(10f);
@@ -97,7 +100,7 @@ public class PlayerMovement : MonoBehaviour
 
     void Update() // hints op basis van welk item je vast hebt
     {
-        Debug.Log(EquippedItemManager.Instance.EquippedItemName);
+        //Debug.Log(EquippedItemManager.Instance.EquippedItemName);
         if (EquippedItemManager.Instance.EquippedItemName == "" || EquippedItemManager.Instance.EquippedItemName == null)
         {
 
@@ -124,10 +127,11 @@ public class PlayerMovement : MonoBehaviour
 
         else if (EquippedItemManager.Instance.EquippedItemName == "USB") 
         {
-            txtTips.text = "";
+            txtTips.text = "Find the right PC";
         }
+        
 
-        action = null;
+            action = null;
 
         if (src == null)
         {

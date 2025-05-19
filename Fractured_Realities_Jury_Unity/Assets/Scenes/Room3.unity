@@ -1100,6 +1100,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8261886276551341217, guid: c20090ee8e3ce4549851b08302bb3093, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 497383948624130222, guid: c20090ee8e3ce4549851b08302bb3093, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1907590039962302269, guid: c20090ee8e3ce4549851b08302bb3093, type: 3}
       propertyPath: m_LocalPosition.x
       value: -72.44
@@ -1143,6 +1151,10 @@ PrefabInstance:
     - target: {fileID: 6670967836499443264, guid: c20090ee8e3ce4549851b08302bb3093, type: 3}
       propertyPath: m_Name
       value: Key4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6670967836499443264, guid: c20090ee8e3ce4549851b08302bb3093, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3724,6 +3736,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: USBKey
       objectReference: {fileID: 0}
+    - target: {fileID: 7493611140733781244, guid: a06bb2e5bc4b82f43b351a6b569839fa, type: 3}
+      propertyPath: m_TagString
+      value: USB
+      objectReference: {fileID: 0}
     - target: {fileID: 7833298027466497606, guid: a06bb2e5bc4b82f43b351a6b569839fa, type: 3}
       propertyPath: m_LocalPosition.x
       value: -39.18
@@ -3763,10 +3779,6 @@ PrefabInstance:
     - target: {fileID: 7833298027466497606, guid: a06bb2e5bc4b82f43b351a6b569839fa, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 9133451980557428720, guid: a06bb2e5bc4b82f43b351a6b569839fa, type: 3}
-      propertyPath: player
-      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

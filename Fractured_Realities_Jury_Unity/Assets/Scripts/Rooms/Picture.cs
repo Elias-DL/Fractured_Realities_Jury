@@ -21,30 +21,30 @@ public class Picture : MonoBehaviour
     void Update() // een "foto" maken van het monster als je op F duwt wanneer je deze ziet
     {
 
-
-        if (Input.GetKeyDown(KeyCode.F) && Player.GetComponent<PlayerMovement>().naamGezien == "AnkleGrabber")
+        Debug.Log(Player.GetComponent<PlayerMovement>().monsterGezien);
+        if (Input.GetKeyDown("e") && Player.GetComponent<PlayerMovement>().monsterGezien == "AnkleGrabber")
         {
             Managers.GetComponent<InventoryManager>().Items.Add(pictureAnklegrabber);
             //Debug.Log("anklegrabber stalked");
             InventoryManager.Instance.ListItems();// update de ui direct 
-            Player.GetComponent<PlayerMovement>().naamGezien = null;
+            Player.GetComponent<PlayerMovement>().monsterGezien = null;
         }
 
-        else if (Input.GetKeyDown(KeyCode.F) && Player.GetComponent<PlayerMovement>().naamGezien == "Bookhead")
+        else if (Input.GetKeyDown("e") && Player.GetComponent<PlayerMovement>().monsterGezien == "Bookhead")
         {
             Managers.GetComponent<InventoryManager>().Items.Add(pictureZombieWithBlood);
             //Debug.Log("bookhead stalked");
             InventoryManager.Instance.ListItems();
-            Player.GetComponent<PlayerMovement>().naamGezien = null;
+            Player.GetComponent<PlayerMovement>().monsterGezien = null;
 
         }
 
-        else if (Input.GetKeyDown(KeyCode.F) && Player.GetComponent<PlayerMovement>().naamGezien == "Zombie")
+        else if (Input.GetKeyDown("e") && Player.GetComponent<PlayerMovement>().monsterGezien == "Zombie")
         {
             Managers.GetComponent<InventoryManager>().Items.Add(pictureMutated);
             //Debug.Log("zombie stalked");
             InventoryManager.Instance.ListItems();
-            Player.GetComponent<PlayerMovement>().naamGezien = null;
+            Player.GetComponent<PlayerMovement>().monsterGezien = null;
 
         }
     }

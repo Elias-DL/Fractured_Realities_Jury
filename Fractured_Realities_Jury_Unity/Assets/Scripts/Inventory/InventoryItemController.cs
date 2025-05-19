@@ -18,7 +18,7 @@ public class InventoryItemController : MonoBehaviour
 
     public void Update()
     {
-        if (player != null && player.GetComponent<PlayerMovement>().naamGezien != null)
+        if (player != null && player.GetComponent<PlayerMovement>().itemGezien != null)
         {
             if ((Input.GetKeyDown("f")) && pickedUp == false)
             {
@@ -34,7 +34,7 @@ public class InventoryItemController : MonoBehaviour
             }
             else
             {
-                Debug.Log(item.name);
+                //Debug.Log(item.name);
             }
 
         }

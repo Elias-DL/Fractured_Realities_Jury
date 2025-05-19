@@ -12,7 +12,7 @@ public class EquippedItemManager : MonoBehaviour
     {
         if (equippedItem != null)
         {
-            Debug.Log(equippedItem.name);
+            //Debug.Log(equippedItem.name);
 
         }
     }

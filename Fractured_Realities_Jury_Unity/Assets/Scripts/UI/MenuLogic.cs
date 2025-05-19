@@ -19,6 +19,7 @@ public class MenuLogic : MonoBehaviour
     public GameObject JumpscareUI;
     public GameObject TipsUI;
     public GameObject guessingGameUI;
+    public bool gamePaused = false;
     // Start is called before the first frame update
     void Start() // via inspector is makkelijker en betrouwbaarder -> minder snel fouten
     {
@@ -48,10 +49,14 @@ public class MenuLogic : MonoBehaviour
             if (IngameMenu.activeSelf == true)
             {
                 IngameMenu.SetActive(false);
+                Time.timeScale = 1f;
+                gamePaused = false;
             }
             else
             {
                 IngameMenu.SetActive(true);
+                Time.timeScale = 0f;
+                gamePaused = true;
             }
         }
     }
@@ -111,4 +116,10 @@ public class MenuLogic : MonoBehaviour
         SceneManager.LoadScene("LogIn");
     }
 
+    public void ResumeGame()
+    {
+        IngameMenu.SetActive(false);
+        Time.timeScale = 1f;
+        gamePaused = false;
+    }
 }

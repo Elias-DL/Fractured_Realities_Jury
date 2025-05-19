@@ -70,7 +70,7 @@ public class EnemyBookHead : MonoBehaviour
             action = "Roam";
         }
         
-        else if (distanceToPlayer <= detectionRadius && action != "Attack" && Player.GetComponent<PlayerMovement>().naamGezien == "Bookhead")
+        else if (distanceToPlayer <= detectionRadius && action != "Attack" && Player.GetComponent<PlayerMovement>().monsterGezien == "Bookhead")
         {
             ChasePlayer();
 
@@ -157,7 +157,7 @@ public class EnemyBookHead : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, playerTrans.position);
         //Debug.Log(distanceToPlayer + " , " + attackRange);
 
-        if (distanceToPlayer <= attackRange + 2 && Player.GetComponent<PlayerMovement>().naamGezien == "Bookhead") // +2 voor veiligheid, anders vaak in de buurt van bv 30 (attack range) maar niet helemaal voor wtv reden
+        if (distanceToPlayer <= attackRange + 2 && Player.GetComponent<PlayerMovement>().monsterGezien == "Bookhead") // +2 voor veiligheid, anders vaak in de buurt van bv 30 (attack range) maar niet helemaal voor wtv reden
         { // Het monster valt enkel aan als je in de buurt bent EN er naar kijkt
             Debug.Log("attack");
             AttackPlayer();
@@ -186,7 +186,7 @@ public class EnemyBookHead : MonoBehaviour
         //Debug.Log("DAMAGE");
 
         yield return new WaitForSeconds(attackDuration); // damaga na animatie zodat je tijd hebt om weg te lopen
-        if (action == "Attack" && Player.GetComponent<PlayerMovement>().naamGezien == "Bookhead") //als na de animatie speler nog in de buurt is en de action dus nog steeds attack is wel damage doen.
+        if (action == "Attack" && Player.GetComponent<PlayerMovement>().monsterGezien == "Bookhead") //als na de animatie speler nog in de buurt is en de action dus nog steeds attack is wel damage doen.
         {// Het monster valt enkel aan als je in de buurt bent EN er naar kijkt
             //JumpscareUI.SetActive(true);
 

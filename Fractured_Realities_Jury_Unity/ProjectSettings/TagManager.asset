@@ -57,6 +57,8 @@ TagManager:
   - Key6
   - FinalKey
   - Candle
+  - USB
+  - Phone
   layers:
   - Default
   - TransparentFX

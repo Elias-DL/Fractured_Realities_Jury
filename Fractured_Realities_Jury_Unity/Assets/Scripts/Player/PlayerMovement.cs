@@ -55,10 +55,15 @@ public class PlayerMovement : MonoBehaviour
             }
         }
 
+        else
+        {
+            gezien = false;
+            monsterGezien = null;
+        }
         if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitItems, rayDistance, layerMaskItems))
         {
             itemGezien = rayHitItems.transform.name;
-            if (itemGezien.Contains("Key") || itemGezien == "Flashlight" || itemGezien.Contains("Candle") ||itemGezien == "CameraPhone") 
+            if (itemGezien.Contains("Key") || itemGezien == "Flashlight" || itemGezien.Contains("Candle") || itemGezien == "CameraPhone")
             {
                 itemSeen = rayHitItems.transform.gameObject;
                 if (itemSeen.activeSelf == true && itemSeen.GetComponent<MeshRenderer>().enabled == true)
@@ -71,9 +76,7 @@ public class PlayerMovement : MonoBehaviour
             }
         }
         else
-        {
-            gezien = false;
-            monsterGezien = null;
+        {            
             itemGezien = null;
         }
 

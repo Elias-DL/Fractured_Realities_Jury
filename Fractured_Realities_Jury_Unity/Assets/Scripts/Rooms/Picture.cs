@@ -22,30 +22,31 @@ public class Picture : MonoBehaviour
     {
 
         Debug.Log(Player.GetComponent<PlayerMovement>().monsterGezien);
-        if (Input.GetKeyDown("e") && Player.GetComponent<PlayerMovement>().monsterGezien == "AnkleGrabber")
+        if (Input.GetKeyDown("f") && Player.GetComponent<PlayerMovement>().monsterGezien == "AnkleGrabber")
         {
             Managers.GetComponent<InventoryManager>().Items.Add(pictureAnklegrabber);
-            //Debug.Log("anklegrabber stalked");
+            Debug.Log("anklegrabber stalked");
             InventoryManager.Instance.ListItems();// update de ui direct 
             Player.GetComponent<PlayerMovement>().monsterGezien = null;
         }
 
-        else if (Input.GetKeyDown("e") && Player.GetComponent<PlayerMovement>().monsterGezien == "Bookhead")
+        else if (Input.GetKeyDown("f") && Player.GetComponent<PlayerMovement>().monsterGezien == "Bookhead")
         {
             Managers.GetComponent<InventoryManager>().Items.Add(pictureZombieWithBlood);
-            //Debug.Log("bookhead stalked");
+            Debug.Log("bookhead stalked");
             InventoryManager.Instance.ListItems();
             Player.GetComponent<PlayerMovement>().monsterGezien = null;
 
         }
 
-        else if (Input.GetKeyDown("e") && Player.GetComponent<PlayerMovement>().monsterGezien == "Zombie")
+        else if (Input.GetKeyDown("f") && Player.GetComponent<PlayerMovement>().monsterGezien == "Zombie")
         {
             Managers.GetComponent<InventoryManager>().Items.Add(pictureMutated);
-            //Debug.Log("zombie stalked");
+            Debug.Log("zombie stalked");
             InventoryManager.Instance.ListItems();
             Player.GetComponent<PlayerMovement>().monsterGezien = null;
 
         }
+        
     }
 }

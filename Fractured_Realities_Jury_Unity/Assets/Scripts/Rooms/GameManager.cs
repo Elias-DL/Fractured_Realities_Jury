@@ -39,6 +39,6 @@ public class GameManager : MonoBehaviour
     private void ShowKey()
     {   
         Debug.Log("All paintings are placed!");
-        Key6.SetActive(true);
+        Key6.GetComponent<MeshRenderer>().enabled = true;
     }
 }

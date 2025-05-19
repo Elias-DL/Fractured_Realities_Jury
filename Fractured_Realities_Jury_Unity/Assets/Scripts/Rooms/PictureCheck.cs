@@ -23,7 +23,7 @@ public class PictureCheck : MonoBehaviour
         {
             if (Key != null)
             {
-                Key.SetActive(true);
+                Key.GetComponent<MeshRenderer>().enabled = true;
             }
         }
     }

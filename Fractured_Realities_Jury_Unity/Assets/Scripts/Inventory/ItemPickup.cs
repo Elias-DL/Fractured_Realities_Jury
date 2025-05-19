@@ -28,8 +28,11 @@ public class ItemPickup : MonoBehaviour
 
     private void OnMouseDown()
     {
-       
-        Pickup(); 
+       if (gameObject.GetComponent<MeshRenderer>().enabled == true)
+        {
+            Pickup();
+
+        }
     }
 
 

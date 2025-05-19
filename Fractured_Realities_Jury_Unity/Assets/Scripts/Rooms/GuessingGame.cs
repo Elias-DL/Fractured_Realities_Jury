@@ -39,7 +39,7 @@ public class GuessingGame : MonoBehaviour
             else
             {
                 feedbackText.text = "Correct! You guessed it!";
-                sleutel.SetActive(true); // als de gok juist is wordt de sleutel zichtbaar
+                sleutel.GetComponent<MeshRenderer>().enabled = true; // als de gok juist is wordt de sleutel zichtbaar
                 guessingGameCanvas.SetActive(false);
 
             }

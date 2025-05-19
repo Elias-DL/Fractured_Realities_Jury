@@ -64,7 +64,6 @@ public class MenuLogic : MonoBehaviour
     }
     public void loadGame()
     {
-        PlayerPrefs.DeleteAll(); // Verwijder opgeslagen variabelen zoals de painting en fotos van de monster zodat deze niet al zijn gedaan
         // bewust niet in quit game want wat als je de game niet met die knop sluit? dan blijven ze nog steeds opgeslagen?
         SceneManager.LoadScene("Map");
 

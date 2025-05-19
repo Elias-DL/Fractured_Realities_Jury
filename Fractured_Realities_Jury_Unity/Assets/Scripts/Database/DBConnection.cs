@@ -20,6 +20,7 @@ public class DBConnection : MonoBehaviour
 
     void Start()
     {
+
         Managers = GameObject.FindWithTag("Managers");
 
         if (PlayerPrefs.HasKey("Username")) // de username blijft binnen de variabelen zodat deze wordt onthouden bij het verzenden van de data
@@ -57,6 +58,7 @@ public class DBConnection : MonoBehaviour
         }
         else
         {
+            PlayerPrefs.DeleteAll(); // Verwijder opgeslagen variabelen zoals de painting en fotos van de monster zodat deze niet al zijn gedaan
 
             PlayerPrefs.SetString("Username", usernameInput.text);
             PlayerPrefs.Save();

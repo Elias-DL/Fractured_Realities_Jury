@@ -3,32 +3,16 @@
   "WorkspaceRootPath": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\rooms\\guessinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\guessinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\rooms\\picturecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\assets\\scripts\\rooms\\picturecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\picturecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\rooms\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\rooms\\usbcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\usbcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\rooms\\paintingmonsters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\paintingmonsters.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\rooms\\paintingvaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\paintingvaria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\rooms\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\assets\\scripts\\rooms\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -43,90 +27,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameManager.cs",
-              "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\GameManager.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\GameManager.cs",
-              "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\GameManager.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Rooms\\GameManager.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAhAAAAAAAAAA==",
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAIA0wDwAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:54:35.029Z",
+              "WhenOpened": "2025-05-19T19:44:53.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GuessingGame.cs",
-              "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\GuessingGame.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\GuessingGame.cs",
-              "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\GuessingGame.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Rooms\\GuessingGame.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAIA1wCkAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:53:09.386Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "USBCHECK.cs",
-              "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\USBCHECK.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\USBCHECK.cs",
-              "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\USBCHECK.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Rooms\\USBCHECK.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:53:03.586Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PaintingVaria.cs",
-              "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\PaintingVaria.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\PaintingVaria.cs",
-              "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\PaintingVaria.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Rooms\\PaintingVaria.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:52:32.639Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "PaintingMonsters.cs",
-              "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\PaintingMonsters.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\PaintingMonsters.cs",
-              "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\PaintingMonsters.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Rooms\\PaintingMonsters.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAoAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:51:37.771Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "PictureCheck.cs",
               "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\PictureCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\PictureCheck.cs",
               "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\PictureCheck.cs",
               "RelativeToolTip": "Assets\\Scripts\\Rooms\\PictureCheck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T18:51:09.943Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Picture.cs",
               "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\Picture.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Picture.cs",
               "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\Picture.cs",
               "RelativeToolTip": "Assets\\Scripts\\Rooms\\Picture.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowDEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T18:51:07.317Z",
               "EditorCaption": ""

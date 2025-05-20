@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\assets\\scripts\\rooms\\picturecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\rooms\\picturecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\picturecheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\assets\\scripts\\rooms\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\rooms\\picture.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,24 +22,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\PlayerMovement.cs",
               "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Player\\PlayerMovement.cs",
               "RelativeToolTip": "Assets\\Scripts\\Player\\PlayerMovement.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAIA0wDwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAIAwwEIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-19T19:44:53.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "PictureCheck.cs",
               "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\PictureCheck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\PictureCheck.cs",
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Picture.cs",
               "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Rooms\\Picture.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Rooms\\Picture.cs",
@@ -60,8 +60,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Rooms\\Picture.cs",
               "ViewState": "AgIAACoAAAAAAAAAAAAowDEAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T18:51:07.317Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T18:51:07.317Z"
             }
           ]
         }

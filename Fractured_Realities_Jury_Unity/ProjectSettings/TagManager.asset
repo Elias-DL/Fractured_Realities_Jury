@@ -59,6 +59,7 @@ TagManager:
   - Candle
   - USB
   - Phone
+  - Flashlight
   layers:
   - Default
   - TransparentFX

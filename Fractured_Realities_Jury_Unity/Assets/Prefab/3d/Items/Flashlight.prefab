@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: -1374545319848443203}
   - component: {fileID: 2664526124816707249}
   - component: {fileID: 7038617489095080919}
-  m_Layer: 0
-  m_Name: Flashlight 1
-  m_TagString: Untagged
+  - component: {fileID: 4573897971577686591}
+  m_Layer: 8
+  m_Name: Flashlight
+  m_TagString: Flashlight
   m_Icon: {fileID: 7250588514170254948, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -95,7 +96,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: ef401caa30762e64eb4a1ad1c4a4bae9, type: 2}
-  itemPrefab: {fileID: 0}
+  itemPrefab: {fileID: 1002705123656268, guid: d86ca2f4159e6a942abd8dfc52b38395, type: 3}
   player: {fileID: 0}
 --- !u!114 &-1374545319848443203
 MonoBehaviour:
@@ -111,6 +112,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: ef401caa30762e64eb4a1ad1c4a4bae9, type: 2}
+  txtTips: {fileID: 0}
 --- !u!65 &2664526124816707249
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -159,6 +161,48 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 126
   m_CollisionDetection: 0
+--- !u!23 &4573897971577686591
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1147965471979518}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!1 &1226127016364396
 GameObject:
   m_ObjectHideFlags: 0

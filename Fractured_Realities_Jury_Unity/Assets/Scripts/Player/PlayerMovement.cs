@@ -63,7 +63,7 @@ public class PlayerMovement : MonoBehaviour
         if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitItems, rayDistance, layerMaskItems))
         {
             itemGezien = rayHitItems.transform.name;
-            if (itemGezien.Contains("Key") || itemGezien == "Flashlight" || itemGezien.Contains("Candle") || itemGezien == "CameraPhone")
+            if (itemGezien.Contains("Key") || itemGezien.Contains("Flashlight") || itemGezien.Contains("Candle") || itemGezien.Contains("CameraPhone"))
             {
                 itemSeen = rayHitItems.transform.gameObject;
                 if (itemSeen.activeSelf == true && itemSeen.GetComponent<MeshRenderer>().enabled == true)

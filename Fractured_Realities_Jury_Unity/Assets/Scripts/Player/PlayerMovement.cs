@@ -5,6 +5,7 @@ using TMPro;
 using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -197,8 +198,16 @@ public class PlayerMovement : MonoBehaviour
             action = "Jump";
         }
         
+        if (Input.GetKey("i"))
+        {
+            Cursor.visible = false;
+        }
 
-        
+        if (Input.GetKey("o"))
+        {
+            Cursor.visible = true;
+        }
+
         SoundEffects();
 
     }

@@ -12,12 +12,12 @@ public class DBConnection : MonoBehaviour
     private string phpUrlHalen = "http://localhost/Fractured_Realities_DB/UnityDBScripts/Pages/GetData.php";
     public GameObject UserInformationContent;
     public GameObject UserInfoPrefab;
-
+    public GameObject canvas;
     public GameObject Managers;
     public string username;
     public TMPro.TMP_InputField usernameInput;
     public TMPro.TMP_Text feedbackText;
-
+    
     void Start()
     {
 
@@ -57,13 +57,17 @@ public class DBConnection : MonoBehaviour
             feedbackText.text = "Enter a valid username";
         }
         else
+
         {
+
+            feedbackText.text = null;
             PlayerPrefs.DeleteAll(); // Verwijder opgeslagen variabelen zoals de painting en fotos van de monster zodat deze niet al zijn gedaan
 
             PlayerPrefs.SetString("Username", usernameInput.text);
             PlayerPrefs.Save();
             username = usernameInput.text;
-            SceneManager.LoadScene("Main Menu");
+            canvas = GameObject.FindWithTag("Canvas");
+            canvas.GetComponent<MenuLogic>().loadGame();
             //Debug.Log(username);
 
         }

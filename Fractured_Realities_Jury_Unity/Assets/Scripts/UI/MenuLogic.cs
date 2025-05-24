@@ -16,7 +16,6 @@ public class MenuLogic : MonoBehaviour
     public GameObject hideInventory;
     public GameObject showInventory;
     public GameObject LoadingScreen;
-    public GameObject JumpscareUI;
     public GameObject TipsUI;
     public GameObject guessingGameUI;
     public bool gamePaused = false;
@@ -34,7 +33,6 @@ public class MenuLogic : MonoBehaviour
         //toggleInventory = GameObject.FindGameObjectWithTag("ToggleInventory");
         //IngameMenu = GameObject.FindWithTag("InGameMenu");
         //LoadingScreen = GameObject.FindWithTag("LoadingScreen");
-        //Jumpscare = GameObject.FindWithTag("Jumpscare");
         //TipsUI = GameObject.FindWithTag("TipsUI");
         //guessingGameUI = GameObject.FindWithTag("guessingGameUI");
     }
@@ -89,8 +87,8 @@ public class MenuLogic : MonoBehaviour
         healthUI.SetActive(true);
         toggleInventory.SetActive(true);
         hideInventory.SetActive(true);
-        JumpscareUI.SetActive(true);
-        JumpscareUI.SetActive(false);
+        
+        
     }
 
     public void loadMenu()

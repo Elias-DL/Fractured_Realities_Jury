@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 1279462776918886587}
   - component: {fileID: 3585057150771657454}
   - component: {fileID: 7993846926341575707}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PaintingWolf
-  m_TagString: PaintingWolf
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0.7071068, z: 0, w: 0.7071068}
   m_LocalPosition: {x: -754, y: 30.49, z: -167.16}
-  m_LocalScale: {x: 0.099999994, y: 26.3702, z: 22.94256}
+  m_LocalScale: {x: 0.1, y: 26.3702, z: 22.942558}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -130,10 +130,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!114 &3585057150771657454
 MonoBehaviour:

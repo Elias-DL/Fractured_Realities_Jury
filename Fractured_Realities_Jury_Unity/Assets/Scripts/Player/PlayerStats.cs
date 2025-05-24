@@ -118,6 +118,7 @@ public class PlayerStats : MonoBehaviour
         escaped = true;
         Destroy(player);
         Destroy(Canvas);
+      
         Cursor.lockState = CursorLockMode.Confined; // cursor vrij laten voor interactie met scorebord mogelijk te maken
         SceneManager.LoadScene("Scoreboard");
         Destroy(player);

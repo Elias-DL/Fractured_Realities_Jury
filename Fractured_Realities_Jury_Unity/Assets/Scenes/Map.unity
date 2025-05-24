@@ -4484,18 +4484,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: PaintinBridge
       objectReference: {fileID: 0}
-    - target: {fileID: 5291486664179201775, guid: 1c25612390d554e43ab8f3d6c83a8b03, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5562086982428572788, guid: 1c25612390d554e43ab8f3d6c83a8b03, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5562086982428572788, guid: 1c25612390d554e43ab8f3d6c83a8b03, type: 3}
-      propertyPath: m_Constraints
-      value: 126
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -10709,21 +10697,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1645537120}
     m_Modifications:
-    - target: {fileID: 1667782279201378830, guid: c6021c6f3ed816849a6fc2187101b26b, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1667782279201378830, guid: c6021c6f3ed816849a6fc2187101b26b, type: 3}
-      propertyPath: m_Constraints
-      value: 126
-      objectReference: {fileID: 0}
     - target: {fileID: 3634921195532777693, guid: c6021c6f3ed816849a6fc2187101b26b, type: 3}
       propertyPath: m_Name
       value: PaintingBoat
-      objectReference: {fileID: 0}
-    - target: {fileID: 3634921195532777693, guid: c6021c6f3ed816849a6fc2187101b26b, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5164404472899112786, guid: c6021c6f3ed816849a6fc2187101b26b, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12583,21 +12559,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1645537120}
     m_Modifications:
-    - target: {fileID: 1819285933519482876, guid: c578c510fdd1dd54182d56b4f730e5ae, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1819285933519482876, guid: c578c510fdd1dd54182d56b4f730e5ae, type: 3}
-      propertyPath: m_Constraints
-      value: 126
-      objectReference: {fileID: 0}
     - target: {fileID: 6088035939132766866, guid: c578c510fdd1dd54182d56b4f730e5ae, type: 3}
       propertyPath: m_Name
       value: PaintingLand
-      objectReference: {fileID: 0}
-    - target: {fileID: 6088035939132766866, guid: c578c510fdd1dd54182d56b4f730e5ae, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 7521409002371981253, guid: c578c510fdd1dd54182d56b4f730e5ae, type: 3}
       propertyPath: m_LocalPosition.x
@@ -31449,29 +31413,9 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1645537120}
     m_Modifications:
-    - target: {fileID: 1279462776918886587, guid: 44e8b6ad6cb2b4c45af90f7c5fb620db, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1279462776918886587, guid: 44e8b6ad6cb2b4c45af90f7c5fb620db, type: 3}
-      propertyPath: m_Constraints
-      value: 126
-      objectReference: {fileID: 0}
     - target: {fileID: 4374364873945755621, guid: 44e8b6ad6cb2b4c45af90f7c5fb620db, type: 3}
       propertyPath: m_Name
       value: PaintingWolf
-      objectReference: {fileID: 0}
-    - target: {fileID: 4374364873945755621, guid: 44e8b6ad6cb2b4c45af90f7c5fb620db, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592466189399976644, guid: 44e8b6ad6cb2b4c45af90f7c5fb620db, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5592466189399976644, guid: 44e8b6ad6cb2b4c45af90f7c5fb620db, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 22.942558
       objectReference: {fileID: 0}
     - target: {fileID: 5592466189399976644, guid: 44e8b6ad6cb2b4c45af90f7c5fb620db, type: 3}
       propertyPath: m_LocalPosition.x
@@ -32730,18 +32674,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1645537120}
     m_Modifications:
-    - target: {fileID: 1636190652048790734, guid: d851d4708c2f0d64d90015e2df985966, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 1636190652048790734, guid: d851d4708c2f0d64d90015e2df985966, type: 3}
-      propertyPath: m_Constraints
-      value: 126
-      objectReference: {fileID: 0}
-    - target: {fileID: 2315749298894124758, guid: d851d4708c2f0d64d90015e2df985966, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 0.1
-      objectReference: {fileID: 0}
     - target: {fileID: 2315749298894124758, guid: d851d4708c2f0d64d90015e2df985966, type: 3}
       propertyPath: m_LocalPosition.x
       value: -569.2766
@@ -32785,10 +32717,6 @@ PrefabInstance:
     - target: {fileID: 4403790210982615953, guid: d851d4708c2f0d64d90015e2df985966, type: 3}
       propertyPath: m_Name
       value: PaintingEarth
-      objectReference: {fileID: 0}
-    - target: {fileID: 4403790210982615953, guid: d851d4708c2f0d64d90015e2df985966, type: 3}
-      propertyPath: m_Layer
-      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -47709,7 +47637,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1860355712
 Transform:
   m_ObjectHideFlags: 0
@@ -48743,18 +48671,6 @@ PrefabInstance:
     - target: {fileID: 961341085931880864, guid: b5a4dbef7e24e92498c5e27f5c3e0257, type: 3}
       propertyPath: m_Name
       value: PaintingWoman
-      objectReference: {fileID: 0}
-    - target: {fileID: 961341085931880864, guid: b5a4dbef7e24e92498c5e27f5c3e0257, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309312249634628204, guid: b5a4dbef7e24e92498c5e27f5c3e0257, type: 3}
-      propertyPath: m_UseGravity
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4309312249634628204, guid: b5a4dbef7e24e92498c5e27f5c3e0257, type: 3}
-      propertyPath: m_Constraints
-      value: 126
       objectReference: {fileID: 0}
     - target: {fileID: 8895899212008664371, guid: b5a4dbef7e24e92498c5e27f5c3e0257, type: 3}
       propertyPath: m_LocalPosition.x
@@ -53731,7 +53647,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4cee08c7276bf274d91d84489cdf46de, type: 3}
       propertyPath: m_Layer
-      value: 8
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 4cee08c7276bf274d91d84489cdf46de, type: 3}
       propertyPath: m_TagString

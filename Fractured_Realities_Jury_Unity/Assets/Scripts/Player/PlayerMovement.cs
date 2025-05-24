@@ -82,19 +82,6 @@ public class PlayerMovement : MonoBehaviour
             itemGezien = null;
         }
 
-            
-        
-        if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitDoors, rayDistance, layerMaskDoors))
-        {
-            doorGezien = rayHitDoors.transform.name;
-             
-       
-        }
-        
-        else
-        {
-            doorGezien = null;
-        }
 
         yield return new WaitForSeconds(10f);
         gezien = false;
@@ -132,7 +119,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (EquippedItemManager.Instance.EquippedItemName.Contains("Key"))
         {
-            txtTips.text = "Press F or click on the right door to unlock it \nPress R to unequip";
+            txtTips.text = "Click on the right door to unlock it \nPress R to unequip";
         }
         else if (EquippedItemManager.Instance.EquippedItemName == "Camera")
         {
@@ -146,7 +133,7 @@ public class PlayerMovement : MonoBehaviour
 
         else if (EquippedItemManager.Instance.EquippedItemName == "USB") 
         {
-            txtTips.text = "Press F or click the right PC";
+            txtTips.text = "Click the right PC";
         }
         
 

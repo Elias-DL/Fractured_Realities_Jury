@@ -15,9 +15,9 @@ GameObject:
   - component: {fileID: 5562086982428572788}
   - component: {fileID: 5071027121120694855}
   - component: {fileID: 5852942680892922644}
-  m_Layer: 8
+  m_Layer: 10
   m_Name: PaintinBridge
-  m_TagString: PaintingBridge
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -30,7 +30,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5291486664179201775}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -878.7, y: 35.370815, z: 292.8}
   m_LocalScale: {x: 1, y: 18.03854, z: 52.33191}
   m_ConstrainProportionsScale: 0
@@ -130,10 +130,10 @@ Rigidbody:
     m_Bits: 0
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
-  m_UseGravity: 1
+  m_UseGravity: 0
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!114 &5071027121120694855
 MonoBehaviour:

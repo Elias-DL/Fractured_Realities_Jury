@@ -50,6 +50,14 @@ public class InventoryManager : MonoBehaviour
         currentScene = SceneManager.GetActiveScene();
         currentSceneName = currentScene.name;
 
+        if (HideInventory == null || ShowInventory == null)
+        {
+            HideInventory = GameObject.FindWithTag("HideInventory");
+            ShowInventory = GameObject.FindWithTag("ShowInventory");
+        }
+    
+
+
         if (currentSceneName != "Main Menu")
         {
             //Player = GameObject.FindWithTag("Player");

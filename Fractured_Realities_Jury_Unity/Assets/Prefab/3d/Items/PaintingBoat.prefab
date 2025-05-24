@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1667782279201378830}
   - component: {fileID: 838885610011248391}
   - component: {fileID: 4164216469246680261}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PaintingBoat
   m_TagString: PaintingBoat
   m_Icon: {fileID: 0}
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: 8fec82b630c5725438abbe6af0c1a4e9, type: 2}
+  txtTips: {fileID: 0}
 --- !u!114 &4164216469246680261
 MonoBehaviour:
   m_ObjectHideFlags: 0

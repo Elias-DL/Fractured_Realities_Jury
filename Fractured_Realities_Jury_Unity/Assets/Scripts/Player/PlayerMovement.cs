@@ -23,18 +23,21 @@ public class PlayerMovement : MonoBehaviour
     public bool gezien;
     public string monsterGezien;
     public string itemGezien;
+    public string doorGezien;
 
     Ray ray;
     float sphereRadius = 1.0f; // Same radius as SphereCast
     float rayDistance = 100f;   // Max distance for the SphereCast
     RaycastHit rayHitEnemies;
     RaycastHit rayHitItems;
+    RaycastHit rayHitDoors;
     public Camera cam;
     private string action;
     public TextMeshProUGUI txtTips;
     // Add a LayerMask variable to select specific layers
     public LayerMask layerMaskEnemies;
     public LayerMask layerMaskItems;
+    public LayerMask layerMaskDoors;
     public GameObject itemSeen; // Het item waar de speler naar kijkt
     private void Start()
     {
@@ -49,11 +52,10 @@ public class PlayerMovement : MonoBehaviour
         if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitEnemies, rayDistance, layerMaskEnemies))
         {
             monsterGezien = rayHitEnemies.transform.name;
-            if (monsterGezien == "AnkleGrabber" || monsterGezien == "Bookhead" || monsterGezien == "Zombie")
-            {
-                Debug.Log(rayHitEnemies.transform.name);
+            
+                //Debug.Log(rayHitEnemies.transform.name);
                 gezien = true;
-            }
+            
         }
 
         else
@@ -61,24 +63,37 @@ public class PlayerMovement : MonoBehaviour
             gezien = false;
             monsterGezien = null;
         }
+
         if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitItems, rayDistance, layerMaskItems))
         {
             itemGezien = rayHitItems.transform.name;
-            if (itemGezien.Contains("Key") || itemGezien.Contains("Flashlight") || itemGezien.Contains("Candle") || itemGezien.Contains("CameraPhone"))
-            {
-                itemSeen = rayHitItems.transform.gameObject;
-                if (itemSeen.activeSelf == true && itemSeen.GetComponent<MeshRenderer>().enabled == true)
-                {
-                    txtTips.text = "Press F to pick up " + itemSeen.tag;
 
-                }
-                //Debug.Log(rayHitItems.transform.name);
+            itemSeen = rayHitItems.transform.gameObject;
+            if (itemSeen.activeSelf == true && itemSeen.GetComponent<MeshRenderer>().enabled == true)
+            {
+                txtTips.text = "Press F to pick up " + itemSeen.tag;
 
             }
+            //Debug.Log(rayHitItems.transform.name);
         }
+
         else
-        {            
+        {
             itemGezien = null;
+        }
+
+            
+        
+        if (Physics.SphereCast(ray, sphereRadius, out RaycastHit rayHitDoors, rayDistance, layerMaskDoors))
+        {
+            doorGezien = rayHitDoors.transform.name;
+             
+       
+        }
+        
+        else
+        {
+            doorGezien = null;
         }
 
         yield return new WaitForSeconds(10f);
@@ -117,7 +132,7 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (EquippedItemManager.Instance.EquippedItemName.Contains("Key"))
         {
-            txtTips.text = "Find the right door to unlock it \nPress R to unequip";
+            txtTips.text = "Press F or click on the right door to unlock it \nPress R to unequip";
         }
         else if (EquippedItemManager.Instance.EquippedItemName == "Camera")
         {
@@ -131,7 +146,7 @@ public class PlayerMovement : MonoBehaviour
 
         else if (EquippedItemManager.Instance.EquippedItemName == "USB") 
         {
-            txtTips.text = "Find the right PC";
+            txtTips.text = "Press F or click the right PC";
         }
         
 

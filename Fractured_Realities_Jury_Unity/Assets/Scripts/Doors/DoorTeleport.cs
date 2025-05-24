@@ -1,6 +1,6 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem; // Library voor het nieuwe 
+using UnityEngine.SceneManagement;
 
 public class DoorInteraction : MonoBehaviour
 {
@@ -52,11 +52,11 @@ public class DoorInteraction : MonoBehaviour
     public void OnMouseDown()
     {
 
-        SoundEffects();
-        if (Mouse.current.leftButton.wasPressedThisFrame)
-        {
-            string equippedItem = EquippedItemManager.Instance.EquippedItemName;
-            if (equippedItem == neccescaryKey) // in inspector bv : Key4, volledig niet alleen getal
+        SoundEffects(); // Speel het geluid van de deur af bij interactie
+        if (Mouse.current.leftButton.wasPressedThisFrame) // Checken of de linker muisknop is ingedrukt
+        { 
+            string equippedItem = EquippedItemManager.Instance.EquippedItemName; 
+            if (equippedItem == neccescaryKey) // Checken of de seler de juiste sleutel heeft
             {
                 //Stel de spawnpointnaam in voordat de scene wordt geladen
                 SpawnManager.spawnPointName = targetSpawnPointName;
@@ -67,12 +67,10 @@ public class DoorInteraction : MonoBehaviour
 
                 LoadScene();
 
-
-
             }
-            else
+            else // Als de speler geen of de verkeerde sleutel heeft een gepaste foutmelding geven 
             {
-                if (equippedItem == null)
+                if (equippedItem == null) 
                 {
                     Debug.Log(" - TIP : " + neccescaryKey);
 
@@ -84,6 +82,16 @@ public class DoorInteraction : MonoBehaviour
                 }
             }
 
+        }
+    }
+
+    private void Update()
+    {
+        if (Input.GetKey("f") && EquippedItemManager.Instance.tag == gameObject.tag)
+        {
+            OnMouseDown();
+
+            
         }
     }
 

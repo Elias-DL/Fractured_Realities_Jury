@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1279462776918886587}
   - component: {fileID: 3585057150771657454}
   - component: {fileID: 7993846926341575707}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PaintingWolf
   m_TagString: PaintingWolf
   m_Icon: {fileID: 0}
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: 2af19ca06d4c1f640b2bb21cb60bbc09, type: 2}
+  txtTips: {fileID: 0}
 --- !u!114 &7993846926341575707
 MonoBehaviour:
   m_ObjectHideFlags: 0

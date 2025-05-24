@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1819285933519482876}
   - component: {fileID: 4307035515328322119}
   - component: {fileID: 2614599479034188773}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PaintingLand
   m_TagString: PaintingLandscape
   m_Icon: {fileID: 0}
@@ -164,3 +164,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: 64fcf39616156af4bacb62811cc858d7, type: 2}
+  txtTips: {fileID: 0}

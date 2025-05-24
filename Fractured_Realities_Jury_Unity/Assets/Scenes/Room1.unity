@@ -16698,6 +16698,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Door1
       objectReference: {fileID: 0}
+    - target: {fileID: 1831504449878450, guid: aba98b385cd978243afa612b00cbdb00, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
+    - target: {fileID: 1831504449878450, guid: aba98b385cd978243afa612b00cbdb00, type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 4429605065566062, guid: aba98b385cd978243afa612b00cbdb00, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1

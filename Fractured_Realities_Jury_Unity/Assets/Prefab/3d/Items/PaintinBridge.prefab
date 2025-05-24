@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 5562086982428572788}
   - component: {fileID: 5071027121120694855}
   - component: {fileID: 5852942680892922644}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PaintinBridge
   m_TagString: PaintingBridge
   m_Icon: {fileID: 0}
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: c5164f5c8b3673e40a05f41298e842d1, type: 2}
+  txtTips: {fileID: 0}
 --- !u!114 &5852942680892922644
 MonoBehaviour:
   m_ObjectHideFlags: 0

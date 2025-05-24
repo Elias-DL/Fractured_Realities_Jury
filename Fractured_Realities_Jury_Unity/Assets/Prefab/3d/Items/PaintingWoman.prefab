@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 4309312249634628204}
   - component: {fileID: 6231571873479395849}
   - component: {fileID: 1302466909673799596}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PaintingWoman
   m_TagString: PaintingWoman
   m_Icon: {fileID: 0}
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: 84327d21e53e4b94a8006414f6ddba90, type: 2}
+  txtTips: {fileID: 0}
 --- !u!114 &1302466909673799596
 MonoBehaviour:
   m_ObjectHideFlags: 0

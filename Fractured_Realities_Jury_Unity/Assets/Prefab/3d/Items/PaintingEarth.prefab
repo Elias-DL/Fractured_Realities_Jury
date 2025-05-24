@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 1636190652048790734}
   - component: {fileID: 7326701334059032263}
   - component: {fileID: 5091543370296131335}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: PaintingEarth
   m_TagString: PaintingEarth
   m_Icon: {fileID: 0}
@@ -149,6 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MainCamera: {fileID: 0}
   Item: {fileID: 11400000, guid: 0740acf258837bb46a12885c47968813, type: 2}
+  txtTips: {fileID: 0}
 --- !u!114 &5091543370296131335
 MonoBehaviour:
   m_ObjectHideFlags: 0

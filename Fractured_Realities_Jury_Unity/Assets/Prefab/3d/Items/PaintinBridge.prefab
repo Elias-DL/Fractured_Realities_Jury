@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 5852942680892922644}
   m_Layer: 10
   m_Name: PaintinBridge
-  m_TagString: Untagged
+  m_TagString: PaintingBridge
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

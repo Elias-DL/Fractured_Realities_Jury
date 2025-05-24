@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 2614599479034188773}
   m_Layer: 10
   m_Name: PaintingLand
-  m_TagString: Untagged
+  m_TagString: PaintingLandscape
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

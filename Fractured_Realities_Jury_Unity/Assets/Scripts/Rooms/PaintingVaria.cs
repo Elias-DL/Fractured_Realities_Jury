@@ -4,38 +4,34 @@ using UnityEngine;
 
 public class PaintingVaria : MonoBehaviour
 {
-    public GameObject Painting; // Image compontent in de inspector
-    public string imagePainting; // Naam van de painting
-    public GameObject GameObjectPainting;
+    public GameObject Painting; // Schilderj component in de inspector
+    public string imagePainting; // Naam van het schilderij
+    public GameObject GameObjectPainting; // Gameobject van het schilderij
     // Start is called before the first frame update
     void Start()
     {
-        if (PlayerPrefs.HasKey(imagePainting + "Gevonden")) // bijhouden of het schilderij al is is opgehangen
-                                                            // zodat als je de kamer kan verlaten en niet opnieuw moet beginnen
-
+        // Controleren of het schilderij al eerder is opgehangen
+        if (PlayerPrefs.HasKey(imagePainting + "Gevonden")) 
         {
             Painting.SetActive(true);
-
         }
     }
-
-    // Update is called once per frame
-    void Update()
+    private void OnMouseDown() // Als er op het kader wordt gedrukt
     {
-
-    }
-
-    private void OnMouseDown()
-    {
-        if (EquippedItemManager.Instance.EquippedItemName == imagePainting)
+        
+        // Checken of de speler het juiste schilderij vast heeft
+        if (EquippedItemManager.Instance.EquippedItemName == imagePainting) 
         {
+            // Het kader opvullen met het schilderij
             Painting.SetActive(true);
-            Debug.Log("Painting" + imagePainting);
+         
+            // Het schilderij verwijderen 
             GameObjectPainting = GameObject.FindWithTag("Painting" + imagePainting);
-            Destroy(GameObjectPainting);
+            Destroy(GameObjectPainting); 
             EquippedItemManager.Instance.ClearEquippedItem();
-            //Debug.Log(paintingName);
-            PlayerPrefs.SetString(imagePainting + "Gevonden", "true");
+
+            // Playerprefs variabelen aanmaken
+            PlayerPrefs.SetString(imagePainting + "Gevonden", "true"); 
             PlayerPrefs.Save();
 
 

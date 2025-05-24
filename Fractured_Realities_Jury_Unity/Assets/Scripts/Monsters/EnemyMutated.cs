@@ -62,26 +62,27 @@ public class EnemyMutated : MonoBehaviour
         float distanceToPlayer = Vector3.Distance(transform.position, playerTrans.position);
         //Debug.Log("Distance to player: " + distanceToPlayer + " detectionradius : " + detectionRadius);
 
-        if (Managers.GetComponent<PlayerStats>().Respawning == true) // Als de speler respawned kan deze niet aangevallen of gevolgd worden 
+        if (Managers.GetComponent<PlayerStats>().Respawning == true)  
         {
+            // Als de speler respawned kan deze niet aangevallen of gevolgd worden
             RoamAround();
-            action = "Roam";
+            action = "Roam"; 
         }
 
         else if (distanceToPlayer <= detectionRadius && action != "Attack")
         {
-
+            action = "Chase";
             ChasePlayer();
 
         }
         else if (action != "Attack")
         {
             action = "Roam";
-
             RoamAround();
         }
         else
         {
+            action = "Attack";
             AttackPlayer();
 
         }
@@ -121,7 +122,7 @@ public class EnemyMutated : MonoBehaviour
         animator.SetBool("Chase", false);
 
         animator.SetBool("Attack", true);
-        action = "Attack";
+        
 
 
         // monster draaien in de richting van de speler
@@ -175,21 +176,19 @@ public class EnemyMutated : MonoBehaviour
         isDamaging = true;
         //Debug.Log("DAMAGE");
 
-        yield return new WaitForSeconds(attackDuration); // damaga na animatie zodat je tijd hebt om weg te lopen
-        if (action == "Attack") //als na de animatie speler nog in de buurt is en de action dus nog steeds attack is wel damage doen.
+        yield return new WaitForSeconds(attackDuration); 
+        // Damaga gebeurt na de animatie zodat je tijd hebt om weg te lopen
+        if (action == "Attack") 
         {
+            //Als de speler na de animatie nog in de buurt is (action = attack) krijgt de speler damage
             Managers.GetComponent<PlayerStats>().TakeDamage(damage);
             isDamaging = false;
         }
         else
         {
-            isDamaging = false; // in beide gevallen is de attack animatie gedaan
+            isDamaging = false; // In beide gevallen is de attack animatie gedaan
 
         }
-
-
-
-
     }
 
 

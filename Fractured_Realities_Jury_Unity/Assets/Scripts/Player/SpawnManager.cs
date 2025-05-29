@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,11 +13,12 @@ public class SpawnManager : MonoBehaviour
 
     public void Awake()
     {
-        currentScene = SceneManager.GetActiveScene();
-        currentSceneName = currentScene.name;
 
-        if (currentSceneName != "Main Menu")
+
+        if (currentSceneName != "Main Menu" || currentSceneName != "Scoreboard")
         {
+            StartCoroutine(CurrenSceneName());
+
             if (!string.IsNullOrEmpty(spawnPointName))
             {
                 // Zoek het teleportatiedoel op basis van zijn naam
@@ -70,7 +72,18 @@ public class SpawnManager : MonoBehaviour
                 
             }
         }
+
+        else
+        {
+            Destroy(gameObject);
+        }
+
+
     }
 
-
+    IEnumerator CurrenSceneName()
+    {
+        yield return null; // wait one frame
+        Debug.Log("Current Scene: " + SceneManager.GetActiveScene().name);
+    }
 }

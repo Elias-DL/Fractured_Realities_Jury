@@ -93,6 +93,7 @@
     <Compile Include="Assets\AssetImported\Standard Assets\Characters\RollerBall\Scripts\Ball.cs" />
     <Compile Include="Assets\Scripts\Inventory\HiddenKey.cs" />
     <Compile Include="Assets\Scripts\Rooms\Escape.cs" />
+    <Compile Include="Assets\FindManager.cs" />
     <Compile Include="Assets\AssetImported\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
     <Compile Include="Assets\AssetImported\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\Scripts\Doors\DoorTeleportOpen.cs" />

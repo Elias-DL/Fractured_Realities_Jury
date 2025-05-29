@@ -21,8 +21,10 @@ public class PlayerStats : MonoBehaviour
     //public GameObject JumpscareUI; // Uitbreiding
     public GameObject Canvas;
     public GameObject DiedUI;
+    public GameObject Managers;
     private void Start() 
     {
+
         //Debug.Log("start");
         currentHealth = maxHealth;
         if (DiedUI == null)
@@ -32,6 +34,7 @@ public class PlayerStats : MonoBehaviour
         healthBar.SetSliderMax(maxHealth);
         //JumpscareUI = GameObject.FindWithTag("JumpscareUI");
         Canvas = GameObject.FindWithTag("Canvas");
+        player = GameObject.FindWithTag("Player");
     }
 
 
@@ -42,7 +45,7 @@ public class PlayerStats : MonoBehaviour
         {
             player = GameObject.FindWithTag("Player");
         }
-        if (SceneManager.GetActiveScene().name != "Scoreboard" && SceneManager.GetActiveScene().name != "Main Menu")
+        if (SceneManager.GetActiveScene().name != "Scoreboard" && SceneManager.GetActiveScene().name != "Main Menu" && SceneManager.GetActiveScene().name != "LogIN")
         {
             //Debug.Log(SceneManager.GetActiveScene().name);
             time += Time.deltaTime;
@@ -116,12 +119,13 @@ public class PlayerStats : MonoBehaviour
 
     {
         escaped = true;
-        Destroy(player);
-        Destroy(Canvas);
+        //Destroy(Canvas);
       
         Cursor.lockState = CursorLockMode.Confined; // cursor vrij laten voor interactie met scorebord mogelijk te maken
         SceneManager.LoadScene("Scoreboard");
+        //Debug.Log("scorebord loaded");
         Destroy(player);
+        Destroy(Canvas);
     }
 
     IEnumerator Died()
@@ -136,5 +140,13 @@ public class PlayerStats : MonoBehaviour
 
 
     }
+
+    public void PlayAgain()
+    {
+        SceneManager.LoadScene("logIN");
+        Destroy(gameObject);
+    }
+
+
 
 }

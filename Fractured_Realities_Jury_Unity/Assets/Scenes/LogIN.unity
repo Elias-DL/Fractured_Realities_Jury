@@ -3546,6 +3546,7 @@ MonoBehaviour:
   Respawning: 1
   Canvas: {fileID: 0}
   DiedUI: {fileID: 629492902}
+  Managers: {fileID: 0}
 --- !u!114 &1480111931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5847,6 +5848,10 @@ PrefabInstance:
       propertyPath: txtTips
       value: 
       objectReference: {fileID: 1926902953}
+    - target: {fileID: 1278387510249634349, guid: 2b0b5b22e6f7b30428039e36a17db052, type: 3}
+      propertyPath: itemSeen
+      value: 
+      objectReference: {fileID: 1480111929}
     - target: {fileID: 1278387510249634349, guid: 2b0b5b22e6f7b30428039e36a17db052, type: 3}
       propertyPath: layerMaskDoors.m_Bits
       value: 512

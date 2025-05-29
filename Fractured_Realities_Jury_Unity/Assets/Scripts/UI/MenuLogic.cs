@@ -43,8 +43,11 @@ public class MenuLogic : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))  // Een "menu" opent wanneer je op escape drukt zodat je het spel kan afsluiten
         {
 
+            if (IngameMenu == null || SceneManager.GetActiveScene().name == "LogIN" ) // Het ingamemenu kan niet in de login scene gebruikt worden of als het niet verbonden is via de inspector
+            {
 
-            if (IngameMenu.activeSelf == true)
+            }
+            else if (IngameMenu.activeSelf == true) // De game terug starten
             {
                 IngameMenu.SetActive(false);
                 Time.timeScale = 1f;
@@ -52,19 +55,14 @@ public class MenuLogic : MonoBehaviour
             }
             else
             {
-                IngameMenu.SetActive(true);
+                IngameMenu.SetActive(true); // De game pauzeren
                 Time.timeScale = 0f;
                 gamePaused = true;
             }
         }
     }
 
-    public void loadScoreboard()
-    {
-
-        DontDestroyOnLoad(managers);
-        SceneManager.LoadScene("Scoreboard");
-    }
+  
     public void loadGame()
     {
         // bewust niet in quit game want wat als je de game niet met die knop sluit? dan blijven ze nog steeds opgeslagen?
@@ -109,10 +107,7 @@ public class MenuLogic : MonoBehaviour
 
     }
 
-    public void PlayAgain()
-    {
-        SceneManager.LoadScene("LogIn");
-    }
+  
 
     public void ResumeGame()
     {

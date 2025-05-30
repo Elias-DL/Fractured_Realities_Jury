@@ -152,6 +152,7 @@ public class EnemyMutated : MonoBehaviour
         {
 
             AttackPlayer();
+            action = "Attack";
 
         }
         else
@@ -174,7 +175,7 @@ public class EnemyMutated : MonoBehaviour
 
     {
         isDamaging = true;
-        //Debug.Log("DAMAGE");
+        Debug.Log("DAMAGE");
 
         yield return new WaitForSeconds(attackDuration); 
         // Damaga gebeurt na de animatie zodat je tijd hebt om weg te lopen
@@ -182,6 +183,8 @@ public class EnemyMutated : MonoBehaviour
         {
             //Als de speler na de animatie nog in de buurt is (action = attack) krijgt de speler damage
             Managers.GetComponent<PlayerStats>().TakeDamage(damage);
+            Debug.Log("aaa");
+
             isDamaging = false;
         }
         else

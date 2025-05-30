@@ -161,6 +161,7 @@ public class EnemyBookHead : MonoBehaviour
         { // Het monster valt enkel aan als je in de buurt bent EN er naar kijkt
             Debug.Log("attack");
             AttackPlayer();
+            action = "Attack";
 
         }
         else

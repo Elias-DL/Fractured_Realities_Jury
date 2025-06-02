@@ -3,15 +3,19 @@
   "WorkspaceRootPath": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\assetimported\\rusty flashlight\\scripts\\flashlighttoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\assetimported\\rusty flashlight\\scripts\\flashlighttoggle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\monsters\\enemybookhead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsters\\enemybookhead.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\monsters\\enemymutated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\assets\\scripts\\monsters\\enemymutated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsters\\enemymutated.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|c:\\fractured_realities_jury\\fractured_realities_jury_unity\\assets\\scripts\\monsters\\enemyanklegrabber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\assets\\scripts\\monsters\\enemyanklegrabber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{738972B1-38C8-6699-4D72-8B29CD6E9BC0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsters\\enemyanklegrabber.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "FlashlightToggle.cs",
+              "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\AssetImported\\Rusty Flashlight\\Scripts\\FlashlightToggle.cs",
+              "RelativeDocumentMoniker": "Assets\\AssetImported\\Rusty Flashlight\\Scripts\\FlashlightToggle.cs",
+              "ToolTip": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\AssetImported\\Rusty Flashlight\\Scripts\\FlashlightToggle.cs",
+              "RelativeToolTip": "Assets\\AssetImported\\Rusty Flashlight\\Scripts\\FlashlightToggle.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwCoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T21:31:41.052Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "EnemyMutated.cs",
               "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Monsters\\EnemyMutated.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Monsters\\EnemyMutated.cs",
@@ -34,12 +51,11 @@
               "RelativeToolTip": "Assets\\Scripts\\Monsters\\EnemyMutated.cs",
               "ViewState": "AgIAAIIAAAAAAAAAAAAcwJsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T19:07:37.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-30T19:07:37.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "EnemyBookHead.cs",
               "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Monsters\\EnemyBookHead.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Monsters\\EnemyBookHead.cs",
@@ -52,7 +68,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EnemyAnkleGrabber.cs",
               "DocumentMoniker": "C:\\Fractured_Realities_Jury\\Fractured_Realities_Jury_Unity\\Assets\\Scripts\\Monsters\\EnemyAnkleGrabber.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Monsters\\EnemyAnkleGrabber.cs",
@@ -60,8 +76,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Monsters\\EnemyAnkleGrabber.cs",
               "ViewState": "AgIAAKkAAAAAAAAAAAAcwMcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T23:16:40.512Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-29T23:16:40.512Z"
             }
           ]
         }

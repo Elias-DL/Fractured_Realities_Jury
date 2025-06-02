@@ -40,6 +40,7 @@ public class FlashlightToggle : MonoBehaviour
 
                 }
             }
+            licht.transform.rotation = Camera.main.transform.rotation ;
 
         }
 
